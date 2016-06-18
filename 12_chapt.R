@@ -1,0 +1,20 @@
+rm(list = ls())
+library(AppliedPredictiveModeling)
+library(caret)
+library(doMC)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+library(glmnet)
+library(MASS)
+library(pamr)
+library(pls)
+library(rms)
+library(sparseLDA)
+library(subselect)
+library(pROC)
+registerDoMC(cores = 16)
+
+
+# computing p. 308
+load('data/grantData.RData')
