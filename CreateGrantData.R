@@ -47,7 +47,7 @@ library(lubridate)
 ## How many cores on the machine should be used for the data
 ## processing. Making cores > 1 will speed things up (depending on your
 ## machine) but will consume more memory.
-cores <- 4
+cores <- 16 
 
 if(cores > 1) {
     library(doMC)
@@ -491,3 +491,4 @@ str(reducedSet)
 
 sessionInfo()
 
+save.image(file = 'data/grantData.RData')

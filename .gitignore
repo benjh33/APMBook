@@ -25,10 +25,9 @@ vignettes/*.pdf
 *.knit.md
 # data directory
 data/*
-
 .Rproj.user
 packrat/lib*/
 packrat/src/*
-
 # VIM
 *.sw*
+ansible/*

@@ -5,7 +5,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 sudo add-apt-repository ppa:marutter/rdev
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get -y install git build-essential python-dev libsqlite3-dev libreadline6-dev libgdbm-dev zlib1g-dev libbz2-dev sqlite3 zip python3 python3-dev python3-pip cmake r-base r-base-dev default-jre libssl-dev
+sudo apt-get -y install git build-essential python-dev libsqlite3-dev libreadline6-dev libgdbm-dev zlib1g-dev libbz2-dev sqlite3 zip python3 python3-dev python3-pip cmake r-base r-base-dev default-jre libssl-dev libcurl4-openssl-dev
 
 git clone git://github.com/ansible/ansible.git --recursive
 git clone https://github.com/benjh33/vim --recursive .vim
