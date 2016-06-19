@@ -185,7 +185,7 @@ sparseLdaModel <- sda(as.matrix(training[, fullSet]),
                       training$Class, 
                       lambda = 0.01, 
                       stop = -6)
-# or
+# or ... takes more than 30 minutes.
 sldaTuned <- train(as.matrix(training[, fullSet]),
                    y = training$Class,
                    method = 'sparseLDA',
